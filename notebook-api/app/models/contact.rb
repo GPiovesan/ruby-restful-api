@@ -15,4 +15,8 @@ class Contact < ApplicationRecord
     #         methods: [:kind_description, :author]
     #     )
     # end
+
+    def hello
+        I18n.t('hello')
+    end
 end
